@@ -1,0 +1,425 @@
+*::selection {
+  background-color: var(--color-purple);
+}
+
+.main-index {
+  display: grid;
+  grid-template-columns: 45% 54%;
+}
+
+
+.header-main {
+  display: flex;
+  flex-direction: column;
+  background-image: none;
+  font-size: 3.5vmax;
+  margin-left: 2vmax;
+  height: 42vmax;
+  justify-content: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.header-main i {
+  transition: 0.5s;
+}
+
+.header-main i:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.header-main .p1 {
+  margin-top: 9vh;
+}
+
+.header-main img {
+  margin-left: 7vmax;
+  max-width: 60%;
+  min-width: 150px;
+  height: auto;
+  transition: 0.5s;
+}
+
+.header-main img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.form-header {
+  display: grid;
+  margin-top: 5%;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10vh 10vh 10vh 10vh 10vh;
+  grid-template-areas: 
+        "header header"
+        "name nm_conta"
+        "email born"
+        "passwd passwdchk"
+        "btn-eraser btn-submit"
+        "error error";
+}
+
+
+.form-header input{
+  background-color: rgb(211, 209, 209);
+  border: 1px solid rgb(165, 163, 163);
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+
+
+.form-header input::placeholder {
+  font-size: 1.2vmax;
+  color: rgba(88, 88, 88, 0.5);
+}
+
+.form-header input:focus {
+  background-color: var(--color-purple);
+  transition: 0.5s;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  color: beige;
+}
+
+.form-header input:focus::placeholder {
+  transition: 0.5s;
+  color:  rgb(58, 2, 148);
+}
+
+.form-header .field-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vmin;
+  grid-area: header;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.form-header .field-header p{
+  font-size: 3vmax;
+}
+
+.form-header .field-header p i{
+  transition: 0.5s;
+}
+
+.form-header .field-header p i:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.form-header .field-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: name;
+  font-size: 1.5vmax;
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.form-header .field-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: error;
+  font-size: 1.5vmax;
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+
+.form-header .field-nm_conta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: nm_conta;
+  font-size: 1.5vmax;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.form-header .field-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: email;
+  font-size: 1.5vmax;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.form-header .field-bornn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: born;
+  font-size: 1.5vmax;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.form-header .field-passwd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: passwd;
+  font-size: 1.5vmax;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.form-header .field-passwdchk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: passwdchk;
+  font-size: 1.3vmax;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.form-header .field-btn-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: btn-submit;
+  font-size: 1.5vmax;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+  text-decoration: none;
+}
+
+.form-header .field-btn-submit input {
+  color: var(--color-white);
+  padding: 0.2vmax;
+  background-color: var(--color-purple);
+  border: 3px solid rgb(65, 62, 62);
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.form-header .field-btn-submit input:hover {
+  color: rgb(65, 62, 62);
+  background-color: transparent;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.form-header .field-btn-eraser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: btn-eraser;
+  font-size: 1.5vmax;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.form-header .field-btn-eraser input {
+  color: var(--color-white);
+  padding: 0.2vmax;
+  background-color: var(--color-purple);
+  border: 3px solid rgb(65, 62, 62);
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.form-header .field-btn-eraser input:hover {
+  color: rgb(65, 62, 62);
+  background-color: transparent;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+
+
+
+@media (max-width:1160px){
+  .main-index {
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 37% auto;
+    grid-template-areas: "header"
+                          "form";
+    height: auto;
+    
+
+  }
+
+  .header-main {
+	margin-top:10%;
+    grid-area: header;
+  }
+
+  .div-main {
+    grid-area: form;
+  }
+
+  .header-main {
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+    font-size: 7vmax;
+    margin-bottom: 3vmin;
+    height: auto;
+  }
+  
+  .header-main .p1 {
+    margin-top: 10vmin;
+  }
+  
+  .header-main img {
+    align-items: center;
+    margin: 0px auto;
+    max-width: 100%;
+    min-width: 400px;
+    height: auto;
+    
+  }
+
+  .form-header {
+  display: grid;
+  margin-top: 15%;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 5%;
+  grid-template-areas: 
+        "header"
+        "name"
+        "nm_conta"
+        "email"
+        "born"
+        "passwd"
+        "passwdchk"
+        "btn-eraser"
+        "btn-submit"
+        "error";
+        
+  gap: 4vmin;
+  
+  margin-bottom: 20%;
+}
+
+  .form-header input {
+	  width:50%;
+	  height:7vmin;
+	  
+  }
+
+  .form-header input::placeholder {
+    font-size: 3vmin;
+    color: rgba(88, 88, 88, 0.5);
+  }
+  
+  .form-header .field-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: header;
+    text-align: center;
+  }
+  
+  .form-header .field-header p{
+    font-size: 5vmin;
+  }
+  
+  .form-header .field-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+    grid-area: name;
+    font-size: 2vmin;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .form-header .field-email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+    grid-area: email;
+    font-size: 2vmin;
+    text-align: center;
+  }
+  
+  .form-header .field-passwd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+    grid-area: passwd;
+    font-size: 2vmin;
+    text-align: center;
+  }
+  
+  .form-header .field-passwdchk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+    grid-area: passwdchk;
+    font-size: 2vmin;
+    text-align: center;
+  }
+  
+  .form-header .field-bornn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+    grid-area: born;
+    font-size: 2vmin;
+    text-align: center;
+  }
+  
+    .form-header .field-nm_conta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+    grid-area: nm_conta;
+    font-size: 2vmin;
+    text-align: center;
+  }
+
+  .form-header .field-btn-eraser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+    grid-area: btn-eraser;
+    font-size: 2vmin;
+    text-align: center;
+  }
+  
+  .form-header .field-btn-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+    grid-area: btn-submit;
+    font-size: 2vmin;
+    text-align: center;
+    width:100%;
+  }
+  
+}
+
+
