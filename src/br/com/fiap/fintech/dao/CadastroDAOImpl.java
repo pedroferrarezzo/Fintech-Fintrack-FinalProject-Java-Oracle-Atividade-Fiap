@@ -26,7 +26,11 @@ public class CadastroDAOImpl implements CadastroDAO {
 				conexao = FintechDbManager.getInstance().obterConexaoOracle();
 				conexao.setAutoCommit(false);
 
+<<<<<<< HEAD
 				pstmt = conexao.prepareStatement("INSERT INTO T_FIN_CADASTRO VALUES(DEFAULT, ?, ?, ?, ?, ?, DEFAULT)");
+=======
+				pstmt = conexao.prepareStatement("INSERT INTO T_FIN_CADASTRO VALUES(DEFAULT, ?, ?, ?, ?, ?)");
+>>>>>>> c7ed5e7975a7de69b54c35e55435c4f62061a91d
 
 				pstmt.setString(1, cadastro.getNm_usuario());
 				pstmt.setString(2, cadastro.getEmail_usuario());
@@ -75,7 +79,11 @@ public class CadastroDAOImpl implements CadastroDAO {
 				conexao = FintechDbManager.getInstance().obterConexaoOracle();
 				conexao.setAutoCommit(false);
 				pstmt = conexao
+<<<<<<< HEAD
 						.prepareStatement("INSERT INTO T_FIN_CADASTRO VALUES(DEFAULT, ?, ?, ?, ?, DEFAULT)");
+=======
+						.prepareStatement("INSERT INTO T_FIN_CADASTRO VALUES(DEFAULT, ?, ?, ?, ?, NULL, DEFAULT)");
+>>>>>>> c7ed5e7975a7de69b54c35e55435c4f62061a91d
 
 				pstmt.setString(1, cadastro.getNm_usuario());
 				pstmt.setString(2, cadastro.getEmail_usuario());

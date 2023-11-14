@@ -30,7 +30,11 @@ public class LoginFilter implements Filter {
 		HttpSession session = req.getSession();
 		String url = req.getRequestURI();
 		
+<<<<<<< HEAD
 		if (session.getAttribute("user") == null && !url.contains("login") &&!url.endsWith("/Fintech_Web_Project/") && !url.contains("error404") && !url.contains("resources") && !url.contains("home") && !url.contains("cadServlet") && !url.contains("index") && !url.contains("About") && !url.endsWith(":8080/")) {
+=======
+		if (session.getAttribute("user") == null && !url.contains("login") &&!url.endsWith("/Fintech_Web_Project/") && !url.contains("error404") && !url.contains("resources") && !url.contains("home") && !url.contains("cadServlet") && !url.contains("index") && !url.contains("About")) {
+>>>>>>> c7ed5e7975a7de69b54c35e55435c4f62061a91d
 			request.setAttribute("erro", "Entre com o usuário e senha!");
 			request.getRequestDispatcher("/pages/login/home.jsp").forward(request, response);
 		}else {

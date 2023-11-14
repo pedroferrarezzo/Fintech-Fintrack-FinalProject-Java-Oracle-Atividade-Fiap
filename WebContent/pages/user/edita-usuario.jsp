@@ -49,14 +49,22 @@
 		<fieldset class="field-name-edit">
 			<label for="nome"><i class="fa-solid fa-circle-user"
 				style="color: #ae00ff"></i></label> <input type="text" id="nome" name="nome"
+<<<<<<< HEAD
 				class="input" value="${cadastro.getNm_usuario()}" pattern="[a-zA-Z\s]+" required
+=======
+				class="input" value="${cadastro.getNm_usuario()}" required
+>>>>>>> c7ed5e7975a7de69b54c35e55435c4f62061a91d
 				placeholder="Fulano" />
 		</fieldset>
 
 		<fieldset class="field-nm_conta">
 			<label for="nm_conta"><i class="fa-solid fa-coins"
 				style="color: #ae00ff"></i></label> <input type="text" id="nm_conta"
+<<<<<<< HEAD
 				name="nm_conta" maxlength="40" class="input" required pattern="[a-zA-Z\s]+"
+=======
+				name="nm_conta" maxlength="40" class="input" required
+>>>>>>> c7ed5e7975a7de69b54c35e55435c4f62061a91d
 				value="${cadastro.getNm_conta_bancaria()}" />
 		</fieldset>
 
@@ -64,21 +72,33 @@
 		<fieldset class="field-country">
 			<label for="nm_pais"><i class="fa-solid fa-earth-asia"
 				style="color: #ae00ff"></i></label> <input type="text" class="input"
+<<<<<<< HEAD
 				id="nm_pais" name="nm_pais" placeholder="Brasil" pattern="[a-zA-Z\s]+"
+=======
+				id="nm_pais" name="nm_pais" placeholder="Brasil"
+>>>>>>> c7ed5e7975a7de69b54c35e55435c4f62061a91d
 				value="${endereco.getNm_pais()}" />
 		</fieldset>
 
 		<fieldset class="field-state">
 			<label for="nm_estado"><i class="fa-solid fa-flag-usa"
 				style="color: #ae00ff"></i></label> <input type="text" class="input"
+<<<<<<< HEAD
 				id="nm_estado" name="nm_estado" placeholder="São Paulo" pattern="[a-zA-Z\s]+"
+=======
+				id="nm_estado" name="nm_estado" placeholder="São Paulo"
+>>>>>>> c7ed5e7975a7de69b54c35e55435c4f62061a91d
 				value="${endereco.getNm_estado()}" />
 		</fieldset>
 
 		<fieldset class="field-city">
 			<label for="nm_cidade"><i class="fa-solid fa-tree-city"
 				style="color: #ae00ff"></i></label> <input type="text" class="input"
+<<<<<<< HEAD
 				id="nm_cidade" name="nm_cidade" placeholder="São Paulo" pattern="[a-zA-Z\s]+"
+=======
+				id="nm_cidade" name="nm_cidade" placeholder="São Paulo"
+>>>>>>> c7ed5e7975a7de69b54c35e55435c4f62061a91d
 				value="${endereco.getNm_cidade()}" />
 		</fieldset>
 
@@ -86,14 +106,22 @@
 			<label for="nm_bairro"><i
 				class="fa-solid fa-house-chimney-crack" style="color: #ae00ff"></i></label>
 			<input type="text" class="input" id="nm_bairro" name="nm_bairro"
+<<<<<<< HEAD
 				placeholder="Bela Vista" value="${endereco.getNm_bairro()}" pattern="[a-zA-Z\s]+" />
+=======
+				placeholder="Bela Vista" value="${endereco.getNm_bairro()}" />
+>>>>>>> c7ed5e7975a7de69b54c35e55435c4f62061a91d
 		</fieldset>
 
 		<fieldset class="field-street">
 			<label for="nm_bairro"><i class="fa-solid fa-road"
 				style="color: #ae00ff"></i></label> <input type="text" class="input"
 				id="nm_rua" name="nm_rua" placeholder="Avenida Paulista"
+<<<<<<< HEAD
 				value="${endereco.getNm_rua()}" pattern="[a-zA-Z\s]+" />
+=======
+				value="${endereco.getNm_rua()}" />
+>>>>>>> c7ed5e7975a7de69b54c35e55435c4f62061a91d
 		</fieldset>
 
 		<fieldset class="field-born legend">
