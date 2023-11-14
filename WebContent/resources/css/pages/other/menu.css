@@ -1,0 +1,9 @@
+.perfil {
+	transition: 0.2s;
+}
+
+.perfil:hover {
+	transform: scale(1.04);
+	transition: 0.2s;
+	
+}

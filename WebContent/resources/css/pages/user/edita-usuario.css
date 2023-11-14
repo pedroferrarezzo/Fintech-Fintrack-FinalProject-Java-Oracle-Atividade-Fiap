@@ -1,0 +1,305 @@
+:root {
+  --color-purple: rgb(174, 0, 255);
+}
+
+
+*::selection {
+  background-color: var(--color-purple);
+}
+
+.form-header {
+  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  
+  gap: 5vmin;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh;
+  grid-template-areas: 
+        "header header"
+        "name nm_conta"
+        "pais pais"
+        "estado estado"
+        "cidade cidade"
+        "bairro bairro"
+        "rua rua"
+        "data data"
+        "telefone telefone"
+        "btn-eraser btn-submit
+        "btn-delete btn-delete";
+}
+
+
+.form-header input{
+  background-color: rgb(211, 209, 209);
+  border: 1px solid rgb(165, 163, 163);
+  border-radius: 5px;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.form-header input::placeholder {
+  font-size: 1.2vmax;
+  color: rgba(88, 88, 88, 0.5);
+}
+
+.form-header input:focus {
+  background-color: var(--color-purple);
+  transition: 0.2s;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  color: beige;
+}
+
+.form-header input:focus::placeholder {
+  transition: 0.2s;
+  color:  rgb(58, 2, 148);
+}
+
+.form-header .field-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vmin;
+  grid-area: header;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.form-header .field-header p{
+  font-size: 3vmax;
+}
+
+.form-header .field-header p i{
+  transition: 0.2s;
+}
+
+.form-header .field-header p i:hover{
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.form-header .field-name-edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: name;
+  font-size: 1.3vmax;
+  text-align: center;
+  width: 50%;
+  transition: 0.2s;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.form-header .field-name .input {
+	width: 30%;
+}
+
+
+.form-header .field-nm_conta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: nm_conta;
+  font-size: 1.3vmax;
+  text-align: center;
+  width: 50%;
+  transition: 0.2s;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.form-header .field-country {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: pais;
+  font-size: 1.3vmax;
+  width: 50%;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.form-header .field-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: estado;
+  font-size: 1.3vmax;
+  width: 50%;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.form-header .field-city {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: cidade;
+  font-size: 1.3vmax;
+  width: 50%;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.form-header .field-district {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: bairro;
+  font-size: 1.3vmax;
+  width: 50%;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.form-header .field-street {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: rua;
+  font-size: 1.3vmax;
+  width: 50%;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.form-header .field-cel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: telefone;
+  font-size: 1.3vmax;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.form-header .field-cel .ddi{
+	width: 5%;
+}
+
+.form-header .field-cel .ddd{
+	width: 5%;
+}
+
+.form-header .field-cel .cel{
+	width: 15%;
+}
+
+.form-header .field-born {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: data;
+  font-size: 1.3vmax;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.form-header .field-btn-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: btn-submit;
+  font-size: 1.3vmax;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+  text-decoration: none;
+}
+
+.form-header .field-btn-delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: btn-delete;
+  font-size: 1.3vmax;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+  text-decoration: none;
+  margin-bottom: 1vmin;
+}
+
+
+.form-header .field-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: error;
+  font-size: 1.3vmax;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+  text-decoration: none;
+}
+
+.form-header .field-btn-submit button {
+  color: white;
+  padding: 0.5vmax;
+  background-color: var(--color-purple);
+  border: 3px solid rgb(65, 62, 62);
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+.form-header .field-btn-submit button:hover {
+  color: rgb(65, 62, 62);
+  background-color: transparent;
+  transition: 0.2s;
+  transform: scale(1.05);
+}
+
+.form-header .field-btn-delete button {
+  color: white;
+  padding: 0.5vmax;
+  background-color: rgb(237, 14, 14);
+  border: 3px solid rgb(65, 62, 62);
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+.form-header .field-btn-delete button:hover {
+  color: rgb(65, 62, 62);
+  background-color: transparent;
+  transition: 0.2s;
+  transform: scale(1.05);
+}
+
+.form-header .field-btn-eraser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vmin;
+  grid-area: btn-eraser;
+  font-size: 1.3vmax;
+  text-align: center;
+  filter: drop-shadow(2px 2px 5px #0000004b);
+}
+
+.form-header .field-btn-eraser button {
+  color: white;
+  padding: 0.5vmax;
+  background-color: var(--color-purple);
+  border: 3px solid rgb(65, 62, 62);
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+.form-header .field-btn-eraser button:hover {
+  color: rgb(65, 62, 62);
+  background-color: transparent;
+  transition: 0.2s;
+  transform: scale(1.05);
+}
+
