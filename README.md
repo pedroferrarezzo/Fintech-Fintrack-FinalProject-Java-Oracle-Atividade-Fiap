@@ -1,5 +1,12 @@
 # FinTrack - Fintech Web Project
-- Projeto Final 1º Semestre Análise e Desenvolvimento de Sistemas FIAP
+- Projeto Final: 1º Semestre Análise e Desenvolvimento de Sistemas FIAP
+- Deploy atualmente realizado na seguinte infraestrutura:
+  - Máquina virtual criada no provedor de núvem público Azure;
+    - Ubuntu Server 22.04;
+    - 2 vcpu;
+    - 8 Gib RAM
+    - Tomcat 9;
+    - OpenJDK 17.
 
 ## Descrição
 
@@ -8,25 +15,25 @@ Este sistema visa fornecer uma solução abrangente para o rastreamento e gerenc
 
 ## Funcionalidades Principais
 
-- **Gerenciamento de Contas:** Crie e gerencie suas contas financeiras de maneira eficiente.
-- **Registro de Transações:** Registre suas transações financeiras de forma detalhada.
-- **Relatórios Financeiros:** Gere relatórios personalizados para análise de desempenho financeiro.
-- **Segurança Avançada:** Utilize recursos de segurança robustos para proteger suas informações sensíveis.
+- **Gerenciamento de Contas:** Crie e gerencie suas contas financeiras de maneira eficiente;
+- **Registro de Transações:** Registre suas transações financeiras de forma detalhada;
+- **Relatórios Financeiros:** Exporte os dashboards gerados no formato pdf;
+- **Segurança Avançada:** Utilização de criptografia MD5 + SSL (HTTPS) em todos os pontos da aplicação. 
 
 ## Tecnologias Utilizadas
 
-- **Java:** Linguagem de programação principal.
-- **Java Server Pages (JSP):** Tecnologia para o desenvolvimento da camada de apresentação.
-- **JavaServer Pages Standard Tag Library (JSTL):** Conjunto de tags customizadas para simplificar o desenvolvimento JSP.
-- **Expression Language (EL):** Linguagem de expressão utilizada em JSP para acessar dados no backend.
-- **Oracle Database:** Banco de dados relacional para armazenamento seguro e eficiente de dados.
+- **Java:** Linguagem de programação principal (Linguagem de Backend);
+- **Java Server Pages (JSP):** Tecnologia para o desenvolvimento da camada de visualização (Camada View);
+  - **CSS Bootstrap:** Conjunto de classes de formatação e componentes JS pré-desenvolvidos (Framework);
+  - **JavaServer Pages Standard Tag Library (JSTL):** Conjunto de tags customizadas para simplificar o desenvolvimento JSP (Framework);
+  - **Expression Language (EL):** Linguagem de expressão utilizada em JSP para acessar dados no backend (Framwork);
+  - **Oracle Database:** Banco de dados relacional para armazenamento seguro e eficiente de dados.
 
 ## Pré-requisitos
 
-- JDK 8 ou superior
-- Apache Tomcat 8 ou superior
-- Oracle Database (ou outro banco de dados compatível)
-- Maven (opcional, para gerenciamento de dependências)
+- JDK 17;
+- Apache Tomcat 9;
+- Oracle Database (ou outro banco de dados compatível).
 
 ## Configuração do Banco de Dados
 
@@ -48,7 +55,7 @@ spring.datasource.password=sua_senha
 
 ## Contribuição
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+Projeto desenvolvido em conjunto com:
 
 ## Licença
 
