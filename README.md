@@ -42,8 +42,3 @@ Este sistema visa fornecer uma solução abrangente para o rastreamento e gerenc
 - JRE 1.8(+);
 - Apache Tomcat 9;
 - Oracle Database.
-
-## Contribuição
-
-Projeto desenvolvido em conjunto com:
-@ogabrielcristo
