@@ -25,44 +25,24 @@ Este sistema visa fornecer uma solução abrangente para o rastreamento e gerenc
 ## Tecnologias Utilizadas
 
 - **Java:** Linguagem de programação principal (Linguagem de Backend);
+  - **Classes Java Bean:** Classes entity relacionadas ao modelo de negócio desenvolvidas de acordo com a especificação Java Bean (Camada Model);
+  - **Servlets:** Classes extendidas de HttpServlet responsáveis por tratar requisições HTTP (GET ou POST) vindas do client, além de realzar a integração com as classes DAO/Entity (Camada Controller);
+  - **DAO:** Design Pattern - Classes responsáveis por abstrair a lógica de conexão/execução de instruções no banco de dados Oracle (Camada Model).
 - **Java Server Pages (JSP):** Tecnologia para o desenvolvimento da camada de visualização (Camada View);
   - **CSS Bootstrap:** Conjunto de classes de formatação e componentes JS pré-desenvolvidos (Framework);
+  - **Javascript:** Responsável por manipular a DOM do HTML, forneceno maior dinamismo (Linguagem Frontend);
   - **JavaServer Pages Standard Tag Library (JSTL):** Conjunto de tags customizadas para simplificar o desenvolvimento JSP (Framework);
   - **Expression Language (EL):** Linguagem de expressão utilizada em JSP para acessar dados no backend (Framwork);
   - **Oracle Database:** Banco de dados relacional para armazenamento seguro e eficiente de dados.
+- **Eclipse IDE:** IDE utilizada para desenvolvimento de todo o projeto;
 
 ## Pré-requisitos
 
-- JDK 17;
+- JDK 17(+);
+- JRE 1.8(+);
 - Apache Tomcat 9;
-- Oracle Database (ou outro banco de dados compatível).
-
-## Configuração do Banco de Dados
-
-1. Crie um esquema no Oracle Database para o FinTrack.
-2. Atualize as configurações do banco de dados no arquivo `src/main/resources/application.properties`.
-
-```properties
-spring.datasource.url=jdbc:oracle:thin:@localhost:1521:ORCL
-spring.datasource.username=seu_usuario
-spring.datasource.password=sua_senha
-```
-
-## Instruções de Compilação e Execução
-
-1. Clone o repositório: `git clone https://github.com/seu-usuario/FinTrack.git`
-2. Navegue até o diretório do projeto: `cd FinTrack`
-3. Compile o projeto: `mvn clean install`
-4. Implante o arquivo WAR gerado no servidor Apache Tomcat.
+- Oracle Database;
 
 ## Contribuição
 
 Projeto desenvolvido em conjunto com:
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
-
-**Nota:** Certifique-se de substituir "seu-usuario" e outras informações específicas pelos seus próprios detalhes.
