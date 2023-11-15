@@ -1,5 +1,5 @@
 # FinTrack - Fintech Web Project
-- Projeto Final: 1º Semestre Análise e Desenvolvimento de Sistemas FIAP
+- Projeto Final: 2º Semestre - Análise e Desenvolvimento de Sistemas FIAP
 - Deploy atualmente realizado na seguinte infraestrutura:
   - Máquina virtual criada no provedor de núvem público Azure;
     - Ubuntu Server 22.04;
