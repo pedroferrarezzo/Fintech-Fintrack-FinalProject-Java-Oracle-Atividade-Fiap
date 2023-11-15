@@ -41,7 +41,7 @@ Este sistema visa fornecer uma solução abrangente para o rastreamento e gerenc
 - JDK 17(+);
 - JRE 1.8(+);
 - Apache Tomcat 9;
-- Oracle Database;
+- Oracle Database.
 
 ## Contribuição
 
