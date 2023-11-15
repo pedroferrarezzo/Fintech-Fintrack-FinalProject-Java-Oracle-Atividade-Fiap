@@ -46,3 +46,4 @@ Este sistema visa fornecer uma solução abrangente para o rastreamento e gerenc
 ## Contribuição
 
 Projeto desenvolvido em conjunto com:
+@ogabrielcristo
