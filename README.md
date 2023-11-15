@@ -7,6 +7,8 @@
     - 8 Gib RAM
     - Tomcat 9;
     - OpenJDK 17.
+  - IP Público + DNS Azure;
+  - Acessível através da URL: https://fintrack.brazilsouth.cloudapp.azure.com/index.jsp
 
 ## Descrição
 
