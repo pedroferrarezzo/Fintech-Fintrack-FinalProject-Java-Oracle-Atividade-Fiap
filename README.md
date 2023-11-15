@@ -1,8 +1,10 @@
 # FinTrack - Fintech Web Project
+- Projeto Final 1º Semestre Análise e Desenvolvimento de Sistemas FIAP
 
 ## Descrição
 
-O FinTrack é um projeto de Fintech Web desenvolvido em Java, utilizando Java Server Pages (JSP), JavaServer Pages Standard Tag Library (JSTL), Expression Language (EL) e Oracle Database. Este sistema visa fornecer uma solução abrangente para o rastreamento e gerenciamento de transações financeiras, oferecendo uma interface intuitiva e funcionalidades avançadas.
+O FinTrack é um projeto de uma Fintech Web desenvolvido em Java, utilizando Java Server Pages (JSP), JavaServer Pages Standard Tag Library (JSTL), Expression Language (EL) e Oracle Database baseando-se na arquitetura MVC. 
+Este sistema visa fornecer uma solução abrangente para o rastreamento e gerenciamento de transações financeiras, oferecendo visualizações gráficas acerca da saúde financeira do usuário por meio de dashboards. 
 
 ## Funcionalidades Principais
 
