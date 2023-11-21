@@ -1,4 +1,4 @@
-# FinTrack - Fintech Web Project
+# FinTrack-Fintech Web Project-FIAP
 - Projeto Final: 2º Semestre - Análise e Desenvolvimento de Sistemas | FIAP
 - Deploy atualmente realizado na seguinte infraestrutura:
   - Máquina virtual criada no provedor de núvem público Azure;
