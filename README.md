@@ -8,6 +8,7 @@
     - Tomcat 9;
     - OpenJDK 17.
   - IP Público + DNS Azure;
+  - Oracle Database 21c - FIAP 
   - Acessível através da URL: https://fintrack.brazilsouth.cloudapp.azure.com/index.jsp
 
 ## Descrição
