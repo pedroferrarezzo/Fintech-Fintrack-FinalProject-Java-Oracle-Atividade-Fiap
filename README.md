@@ -1,4 +1,5 @@
 # FinTrack-Fintech Web Project-FIAP
+
 - Projeto Final: 2º Semestre - Análise e Desenvolvimento de Sistemas | FIAP
 - Deploy atualmente realizado na seguinte infraestrutura:
   - Máquina virtual criada no provedor de núvem público Azure;
@@ -8,8 +9,15 @@
     - Tomcat 9;
     - OpenJDK 17.
   - IP Público + DNS Azure;
-  - Oracle Database 21c - FIAP 
+  - Oracle Database 21c - FIAP;
   - Acessível através da URL: https://fintrack.brazilsouth.cloudapp.azure.com/index.jsp
+
+## Pré-requisitos
+
+- JDK 17(+);
+- JRE 1.8(+);
+- Apache Tomcat 9;
+- Oracle Database.
 
 ## Descrição
 
@@ -36,10 +44,3 @@ Este sistema visa fornecer uma solução abrangente para o rastreamento e gerenc
   - **Expression Language (EL):** Linguagem de expressão utilizada em JSP para acessar dados no backend (Framwork);
   - **Oracle Database:** Banco de dados relacional para armazenamento seguro e eficiente de dados.
 - **Eclipse IDE:** IDE utilizada para desenvolvimento de todo o projeto;
-
-## Pré-requisitos
-
-- JDK 17(+);
-- JRE 1.8(+);
-- Apache Tomcat 9;
-- Oracle Database.
