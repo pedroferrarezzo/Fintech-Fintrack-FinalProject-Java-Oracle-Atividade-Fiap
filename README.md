@@ -19,6 +19,10 @@
 - Apache Tomcat 9;
 - Oracle Database.
 
+## Hands On
+
+https://github.com/pedroferrarezzo/Fintrack-Final-Project/assets/124400471/210dab72-8342-4ece-9fda-8558a21ed288
+
 ## Descrição
 
 O FinTrack é um projeto de uma Fintech Web desenvolvido em Java, utilizando Java Server Pages (JSP), JavaServer Pages Standard Tag Library (JSTL), Expression Language (EL) e Oracle Database baseando-se na arquitetura MVC. 
