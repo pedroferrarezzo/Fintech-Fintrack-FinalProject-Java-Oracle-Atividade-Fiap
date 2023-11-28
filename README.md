@@ -37,6 +37,7 @@ Este sistema visa fornecer uma solução abrangente para o rastreamento e gerenc
 
 ## Tecnologias Utilizadas
 
+- **Oracle Database:** Banco de dados relacional para armazenamento seguro e eficiente de dados.
 - **Java:** Linguagem de programação principal (Linguagem de Backend);
   - **Classes Java Bean:** Classes entity relacionadas ao modelo de negócio desenvolvidas de acordo com a especificação Java Bean (Camada Model);
   - **Servlets:** Classes extendidas de HttpServlet responsáveis por tratar requisições HTTP (GET ou POST) vindas do client, além de realzar a integração com as classes DAO/Entity (Camada Controller);
@@ -46,5 +47,4 @@ Este sistema visa fornecer uma solução abrangente para o rastreamento e gerenc
   - **Javascript:** Responsável por manipular a DOM do HTML, forneceno maior dinamismo (Linguagem Frontend);
   - **JavaServer Pages Standard Tag Library (JSTL):** Conjunto de tags customizadas para simplificar o desenvolvimento JSP (Framework);
   - **Expression Language (EL):** Linguagem de expressão utilizada em JSP para acessar dados no backend (Framwork);
-  - **Oracle Database:** Banco de dados relacional para armazenamento seguro e eficiente de dados.
 - **Eclipse IDE:** IDE utilizada para desenvolvimento de todo o projeto;
